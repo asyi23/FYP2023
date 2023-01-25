@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;}
+
+/* Set height of body and the document to 100% */
+body {
+
+  margin: 0;
+  font-family: Arial;
+}
+
+
+
+/* 
+.header{
+       
+      
+  background-color:#d2c6b4;
+  height: 10rem;
+  width: auto;
+  
+
+ 
+}
+
+.header .logo{
+  float: left;
+  margin-left: 20%;
+  width: 10%;
+ 
+}
+.header .logo img{
+  width: 5rem;
+ 
+}
+
+
+.header .logo{
+  float: left;
+  margin-left: 20%;
+  width: 10%;
+ 
+}
+.header .logo img{
+  width: 10rem;
+ 
+}
+
+.search{
+  position: relative;
+  float: left;
+  right: 2rem;
+  margin-top: 3.8rem;
+  margin-left: 3rem;
+  min-width: 40%;
+  height: 2.5rem;
+  border-radius: 1rem;
+  border-style: solid;
+  padding-left: 1rem;
+}
+
+.header .logo{
+  float: left;
+  margin-left: 20%;
+  width: 10%;
+ 
+}
+.header .logo img{
+  width: 8rem;
+ 
+}
+
+
+.header .icon{
+  margin: auto;
+  font-size: 1.2rem;
+  min-width: 10rem;
+  float: right;
+  color:black;
+  margin-left: 1rem;
+  margin-top: 3.0rem;  
+}
+
+.header .icon a{
+  color:#d76872;
+
+}
+
+.header .icon a:hover{
+  color: #e0edf4;
+}
+
+.header .icon p1{
+  border-radius: 2rem;
+  background-color: #d76872;
+  border-radius: 100%;
+  text-align: center;
+  width: 1.5rem;
+  font-size: 1.0rem;
+  position: absolute;
+  top: 2.9rem;
+  margin-right:3.5rem;
+  color:#13131a;
+}
+
+
+
+
+
+
+
+
+/* .header .icon p{
+  border-radius: 2rem;
+  background-color: #d76872;
+  border-radius: 100%;
+  text-align: center;
+  width: 2.0rem;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 6.8rem;
+  color:#13131a;
+} */ 
+
+.header{
+  float: left;
+   background-color:#d2c6b4;
+   height: 5rem;
+   width: 100%;
+   height: fit-content;
+   
+
+  
+}
+
+.header .logo{
+   float: left;
+   width: 33.33%;
+   padding-left: 1rem;
+   height: 100%;
+ 
+  
+}
+.header .logo img{
+   width: 6rem;
+   margin-left: 30%;
+  
+  
+}
+
+.header .logo .search{ 
+   /* position: relative;
+   float: left;
+   right: 2rem;
+   margin-top: 3.8rem;
+   margin-left: 3rem;
+   min-width: 40%;
+   height: 2.5rem; */
+   border-radius: 1rem;
+   border-style: solid;
+   margin-top: 2.5rem;
+   width: 70%;
+   height: 1.5rem;
+   padding-left: 1rem;
+  
+   
+  
+}
+
+.header .logo .btn-search{
+
+  border-radius: 0.5rem;
+  border-style: none;
+}
+.header .logo .btn-search:hover{
+   background-color:#d76872;
+}
+
+.header .logo .icon{
+  position: relative;
+  text-decoration: none;
+  bottom: 1rem;
+}
+
+.header .logo .icon a{
+  text-decoration: none;
+  color: #d76872;
+  font-size: 1.2rem;
+
+}
+
+.header .logo .icon .total_count{
+  position: relative;
+  background-color:#d76872;
+  width: 1.5rem;
+  top: 1.2rem;
+  /* margin-left: 0.1rem; */
+  border-radius: 50%;
+  text-align: center;
+
+}
+
+
+
+
+.customer_section{
+  background-color:#d76872 ;
+  text-align: center;
+  padding: 1rem;
+ 
+}
+
+.customer_section .tablink {
+  background-color:white;
+  border: none;
+  border-radius: 1rem;
+  
+  font-size: 1.0rem;
+  margin-top: 1rem;
+}
+
+.customer_section .tablink:hover{
+  background-color: #d2c6b4;
+}
+
+
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  margin-top: 4rem;
+  background-color: #d2c6b4;
+  color:black;
+  display: none;
+  padding: 20px 20px;
+  min-width: 80%;
+  height: auto;
+  border-radius: 1rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+
+
+ .tabcontent table {    
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  /* border-collapse: collapse;     */
+  /* width: 100%;   */
+  /* text-align: center;   */
+  /* font-size: 1.0rem;  
+   */
+ } 
+ .tabcontent th{
+  background-color: #d76872;
+} 
+
+.tabcontent td{
+  border-bottom-style: solid;
+  border-bottom-color: #d76872;
+}
+
+.tabcontent td img{
+  height: 10rem;
+}
+
+
+.tabcontent .row1 a{
+  text-decoration: none;
+  color: black;
+  background-color: #e0edf4;
+  border-radius: 0.5rem;
+
+}
+
+.tabcontent .row1 a:hover{
+  background-color: #d76872;
+}
+
+#Home a{
+  text-decoration: none;
+  color: black;
+  background-color: rgb(181, 181, 181);
+  border-radius: 1rem;
+}
+
+#Home a:hover{
+  background-color: #d76872;
+}
+
+#Contact{
+  float: left;
+  text-align: center;
+  margin-left: 10%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  
+}
+
+#Contact #display{
+  background-color: #d76872;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+#Contact .row1{
+float: left;
+width: 50%;
+padding: 1rem;
+
+}
+
+#Contact #display .remind .board{
+  background-color:white;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+/* 
+#purchase {
+  background-color: #d76872;
+} */
+#purchase .box-item {
+  background-color: white;
+  border-radius: 0.5rem;
+ }
+#purchase .box-item .inside{
+ 
+   
+ border-bottom-style: solid;
+ border-bottom-color:#d76872 ;
+}
+#purchase .box-item .inside .flex{
+
+width: fit-content;
+float: left;
+}
+
+#purchase .box-item .inside .flex img {
+  width: 150px;
+}
+
+#purchase .box-item .inside .flex2{
+
+
+  text-align: left;
+  width: 60%;
+  margin-left: 10rem;
+}
+  #purchase .box-item .inside .flex2 img {
+    width: 150px;
+  }
+
+
+

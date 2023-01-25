@@ -1,0 +1,45 @@
+.header{
+    background-color:#d2c6b4 ;
+    width: 100%;
+    
+    float: left;
+}
+
+.header .item{
+    float: left;
+    width: 28.3%;
+    min-width: 20%;
+    
+    margin-left: 1rem;
+    text-align: center;
+    
+}
+
+.header .item img{
+    width: 8rem;
+    
+}
+
+.header .item .search{
+    width: 100%;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    border:none;
+}
+
+
+.header .item .icon{
+    margin-top: 3rem;
+
+}
+
+.header .item .icon #menu-btn{
+    text-decoration: none;
+    color: #d76872;
+}
+.header .item .icon #menu-btn:hover{
+    color: white;
+
+}
+
+

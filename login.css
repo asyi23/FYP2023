@@ -1,0 +1,319 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+     background:url(image/instantgifts-lowres-31.jpg); 
+     background-position: center;
+    background-repeat:no-repeat;
+    background-position: 5%;
+    object-fit: cover;
+
+}
+
+.header{
+    background-color:#d2c6b4;
+    height: 6rem;
+    width: auto;
+   
+}
+
+.header .logo{
+    float: left;
+    margin-left: 20%;
+    width: 10%;
+   
+}
+.header .logo img{
+    width: 6rem;
+   
+}
+
+.header .search{
+    position: absolute;
+    float: left;
+    margin: auto;
+    margin-left: 23%;
+    margin-top: 1.2rem;
+    width: 60%;
+ 
+    padding-left: 1rem;
+}
+
+.header .search .searchbar{
+ 
+  border-style: none;
+}
+
+.header .search-bar{
+  position: absolute;
+  float: left;
+  margin: auto;
+  margin-left: 23%;
+  margin-top: 1.2rem;
+  width: 60%;
+  border-style: none;
+
+}
+
+.header .icon{
+    float: left;
+    font-size: 1.2rem;
+    size: 2rem;
+    width: fit-content;
+    color: white;
+    margin-left: 50%;
+    margin-top: 2.5rem;
+    
+}
+
+
+#cart-btn{
+  text-decoration: none;
+  color: #d76872;
+}
+
+#menu-btn{
+  text-decoration: none;
+  color: #d76872;
+}
+
+.container-forms{
+    margin: auto;
+
+    width:100%;
+    height:17rem;
+    min-height:17rem;
+    margin-top: 6rem;
+    border-radius: 5px; 
+    text-align: center;
+}
+
+.container-forms .form-login
+{
+    margin-top: 1rem;
+    margin-left: 60%;
+    background-color:#d76872;
+    border-radius: 5px;
+    width:20rem;
+    min-height:17rem;
+    text-align: center;
+}
+
+.link-signup-link{
+    text-decoration: none;
+}
+
+.forgot-pass{
+    text-decoration: none;
+}
+
+.field-facebook{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+.field-google{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.media-options-facebook{
+    background-color:blue;
+    width: fit-content;
+    margin-left: 5rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.media-options-google{
+    background-color:red;
+    width: fit-content;
+    margin-left: 6rem;
+    margin-top: 0.5rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.container-forms .form-signup
+{
+    margin-top: 1rem;
+    background-color: #ccdff5;
+    border-radius: 5px;
+    width: max-content;
+    text-align: center;
+}
+
+.title {
+  
+  margin: 0;
+  text-align: center;
+  margin-top: 1rem;
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #e8e2da 0%,
+    #f36174 29%,
+    #ae6e73 67%,
+    #d4bb9c 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 2.5rem;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+input[type=email], select {
+    width: 15rem;
+    height: 2rem;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+input[type=password], select {
+    width: 15rem;
+    height: 2rem;
+    padding: 12px 20px;
+    margin: 10px 0px;
+  
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit], select {
+    width: 4rem;
+    border-radius: 4px;
+    border-style: none;
+
+  }
+  input[type=submit]:hover {
+    background-color: #d4bb9c;
+ 
+  }
+
+  .container-forms .media-options{
+    background-color: white;
+    padding:1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    height: 3rem;
+    
+
+  }
+/* 
+  .container-forms .seller a{
+    position: relative;
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    border-radius: 4px;
+    bottom: 1rem;
+    width:4rem;
+  } */
+
+  .container-forms .seller a:hover{
+    background-color:#d4bb9c
+  }
+
+
+.cars{
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  
+  font-size: 0.8rem;
+}
+
+
+
+  .footer-basic {
+    padding-top: 2rem;
+    margin-top: 5rem;
+    background-color:#d2c6b4;
+    color:black;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid black;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:black;
+    margin-bottom:0;
+  }

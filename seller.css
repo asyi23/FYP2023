@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* html,body{
+  background:url(image/3.png);
+
+} */
+
+.header{
+    background-color: #d2c6b4;
+    height: 6rem;
+    width: auto;
+   
+}
+
+.header .logo{
+    float: left;
+    margin-left: 20%;
+    width: 10%;
+   
+}
+.header .logo img{
+    width: 6rem;
+   
+}
+
+#cart-btn{
+  text-decoration: none;
+  color: #d76872;
+}
+
+#menu-btn{
+  text-decoration: none;
+  color: #d76872;
+}
+
+.header .search{
+    position: absolute;
+    float: left;
+    margin: auto;
+    margin-left: 23%;
+    margin-top: 1.2rem;
+    width: 60%;
+    border-radius: 1rem;
+    border-color: white;
+    padding-left: 1rem;
+}
+
+.header .icon{
+    float: left;
+    font-size: 1.2rem;
+    size: 2rem;
+    width: fit-content;
+    color: white;
+    margin-left: 50%;
+    margin-top: 2.5rem;
+    
+}
+
+
+
+.tab{
+    background-color:#d76872;
+    padding: 1rem;
+    text-align: center;
+}
+
+.tab button{
+    border-style: none;
+    background-color: #ccc;
+    border-radius: 0.5rem;
+}
+.tab button:hover{
+  
+    background-color:#d76872;
+
+}
+
+.tab button.active{
+    background-color: aliceblue;
+}
+
+.tabcontent{
+    margin: 0;
+    margin-top: 3rem;
+    background-color: #d2c6b4;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    height: 100%;
+    text-align: center;
+}
+
+.tabcontent button{
+    border-style: none;
+    border-radius: 0.5rem;
+}
+.tabcontent button:hover{
+    background-color: #d76872;
+}
+
+.tabcontent .cart{
+    margin: 0;
+    text-align: center;
+    
+    width: 100%;
+    padding: 1rem;
+}
+
+.tabcontent img{
+    height: 10rem;
+}
+
+.tabcontent tr th{
+    background-color: #d2c6b4;
+}
+
+.tabcontent tr td{
+    background-color: #d2c6b4;
+}
+
+.tabcontent .input{
+    border-radius: 0.5rem;
+    border-style: none;
+}
+
+.tabcontent .profile{
+    background-color:#ccc;
+    border-style: none;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.tabcontent .profile:hover{
+    background-color:#d76872;
+}
+
+.tabcontent .Update{
+    background-color:#ccc;
+    border-style: none;
+    border-radius: 0.5rem;
+  
+}
+
+.tabcontent .Update:hover{
+    background-color:#d76872;
+}
+
+.tabcontent .delete{
+    text-decoration: none;
+    color: black;
+    background-color: #ccc;
+    border-radius: 0.5rem;
+}
+
+.tabcontent .delete:hover{
+    background-color: #d76872;
+
+}
+
+/* addproduct */
+
+.new{
+
+    margin-top: 3rem;
+    text-align: center;
+    
+}
+
+.new p{
+    font-size: 1.5rem;
+}
+.tabcontent #input{
+    border-radius: 0.5rem;
+    border-style: none;
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+}
+
+.tabcontent #btn{
+    border-radius: 0.5rem;
+    border-style: none;
+    margin-top: 1rem;
+}
+
+.tabcontent #btn:hover{
+    background-color: #d76872;
+}
+
+.update{
+    
+    text-align: center;
+    width: 100%;
+    min-height: 50%;
+    float: left;
+    margin-top: 2rem;
+}
+
+.update .total{
+   background-color:#d2c6b4;
+   float: left;
+   width: 20%;
+   margin-left: 15rem;  
+   padding-top: 3rem;
+   border-radius: 1rem;
+   text-align: center;
+   height: 10rem;
+}
+
+#dashboard{
+    width:fit-content;
+    margin: auto;
+    margin-top: 1rem;
+
+}
+#dashboard .update {
+    
+    padding: 20px;
+}
+
+#dashboard .update .total{
+    width: 20%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+}  
+
+#dashboard .list1{
+    border-radius: 0.5rem;
+   text-align: center;
+   background-color:rgb(239, 239, 239);
+}
+
+#dashboard .list1 p{
+    font-size: 2rem;
+}
+
+#dashboard .list1 .addBtn{
+    background-color: #ccc;
+    border-radius: 0.5rem;
+   
+}
+
+#dashboard .list1 .addBtn:hover{
+    background-color: #d76872;
+}
+
+.myUL li{
+    margin-top: 1rem;
+    background-color:white;
+    border-radius: 0.5rem;
+    width: fit-content;
+    text-decoration: none;
+    list-style-position: inside;
+}
+
+#profile{
+    width: fit-content;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+#product{
+    width: fit-content;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#product th{
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+#product td{
+
+    padding: 1rem;
+}
+
+#order{
+    width: fit-content;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+#order th{
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+#order td{
+
+    padding: 1rem;
+}
+
+#add{
+    width: fit-content;
+    margin: auto;
+}
